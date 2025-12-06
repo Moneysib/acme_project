@@ -1,0 +1,512 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-12-06T15:49:32.838Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Александр, Лужанский, 2004-06-19",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-12-06T16:01:48.010Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Александр, Лужанский, 2004-06-19",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add birthday",
+    "content_type": 7,
+    "codename": "add_birthday"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change birthday",
+    "content_type": 7,
+    "codename": "change_birthday"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete birthday",
+    "content_type": 7,
+    "codename": "delete_birthday"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view birthday",
+    "content_type": 7,
+    "codename": "view_birthday"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$TOoKWJuCWc7AeYn2Y7H6Ka$Z7t/XPCqOctH0MlJpo6uOlwcRwmCArS39+MTf6rOhlY=",
+    "last_login": "2025-12-06T14:33:08.334Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "alexluzhanskiy@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-12-06T14:31:51.753Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "birthday",
+    "model": "birthday"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1t989k8mkyu31jez432l3awgcw1zrt4j",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyGASLcevfcbyMIuUjWQlPZk_Hdp0oNeJpN5M_MWHrc1-63x4mcSV6HF6TcLGJ9cdkAPLPcqYy3rMge5V-RBm5wq8et2dP8OMrbc1yOghoEiQKAzjCoxW9QRyKXEWgMGFcikCytr2DKaZK3rdnBdnbHi8wX9hzgM:1vRtLQ:LYUmlSmx4_Y23sdMI1_ZIYeIYoVN89bQ-mVxQQPza3s",
+    "expire_date": "2025-12-20T14:33:08.342Z"
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 2,
+  "fields": {
+    "first_name": "Александр",
+    "last_name": "Лужанский",
+    "birthday": "2004-06-19",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 6,
+  "fields": {
+    "first_name": "Юра",
+    "last_name": "Камышев",
+    "birthday": "1956-06-12",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 7,
+  "fields": {
+    "first_name": "Андрей",
+    "last_name": "Пришвин",
+    "birthday": "1974-05-24",
+    "image": "birthdays_images/Снимок_экрана_20230124_004159.png"
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 8,
+  "fields": {
+    "first_name": "Сема",
+    "last_name": "Галочкин",
+    "birthday": "1973-09-30",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 9,
+  "fields": {
+    "first_name": "Артем",
+    "last_name": "Галочкин",
+    "birthday": "1973-09-30",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 10,
+  "fields": {
+    "first_name": "Евгения",
+    "last_name": "Галочкин",
+    "birthday": "1973-09-30",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 11,
+  "fields": {
+    "first_name": "Татьяна",
+    "last_name": "Галочкина",
+    "birthday": "1973-09-30",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 12,
+  "fields": {
+    "first_name": "Дарья",
+    "last_name": "Галочкина",
+    "birthday": "1973-09-30",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 13,
+  "fields": {
+    "first_name": "Марина",
+    "last_name": "Галочкина",
+    "birthday": "1973-09-30",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 14,
+  "fields": {
+    "first_name": "Анатолий",
+    "last_name": "Галочкин",
+    "birthday": "1973-09-30",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 15,
+  "fields": {
+    "first_name": "Инокентий",
+    "last_name": "Голубкин",
+    "birthday": "2004-06-19",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 16,
+  "fields": {
+    "first_name": "Ерема",
+    "last_name": "Никитин",
+    "birthday": "2011-07-11",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 17,
+  "fields": {
+    "first_name": "Арсений",
+    "last_name": "Никитин",
+    "birthday": "2011-07-11",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 18,
+  "fields": {
+    "first_name": "Арсений",
+    "last_name": "Никитинич",
+    "birthday": "2011-07-11",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 20,
+  "fields": {
+    "first_name": "Ирина",
+    "last_name": "Ганана",
+    "birthday": "1999-02-14",
+    "image": ""
+  }
+}
+]

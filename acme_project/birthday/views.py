@@ -4,8 +4,42 @@ from .forms import BirthdayForm
 from .utils import calculate_birthday_countdown
 from .models import Birthday
 from django.core.paginator import Paginator
+from django.views.generic import CreateView, ListView, UpdateView, DeleteView
+from django.urls import reverse_lazy
 
 
+class BirthdayListView(ListView):
+    # Указываем модель, с которой работает CBV...
+    model = Birthday
+    # ...сортировку, которая будет применена при выводе списка объектов:
+    ordering = 'id'
+    # ...и даже настройки пагинации:
+    paginate_by = 10
+
+
+class BirthdayMixin:
+    model = Birthday
+    success_url = reverse_lazy('birthday:list')
+
+
+class BirthdayFormMixin:
+    form_class = BirthdayForm
+    template_name = 'birthday/birthday.html'
+
+
+class BirthdayCreateView(BirthdayMixin, BirthdayFormMixin, CreateView):
+    pass
+
+
+class BirthdayUpdateView(BirthdayMixin, BirthdayFormMixin, UpdateView):
+    pass
+
+
+class BirthdayDeleteView(BirthdayMixin, DeleteView):
+    pass
+
+
+# устарело
 def birthday(request, pk=None):
     if pk is not None:
         instance = get_object_or_404(Birthday, pk=pk)
@@ -24,6 +58,7 @@ def birthday(request, pk=None):
     return render(request, 'birthday/birthday.html', context)
 
 
+# устарело
 def birthday_list(request):
     birthdays = Birthday.objects.order_by('id')
     paginator = Paginator(birthdays, 10)
@@ -33,6 +68,7 @@ def birthday_list(request):
     return render(request, 'birthday/birthday_list.html', context)
 
 
+# устарело
 def delete_birthday(request, pk):
     instance = get_object_or_404(Birthday, pk=pk)
     form = BirthdayForm(instance=instance)

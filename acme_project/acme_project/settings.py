@@ -22,6 +22,7 @@ INSTALLED_APPS = [
 
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
+LOGIN_REDIRECT_URL = 'pages:homepage'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -55,6 +56,7 @@ TEMPLATES = [
     },
 ]
 
+LOGIN_URL = 'login'
 WSGI_APPLICATION = 'acme_project.wsgi.application'
 
 DATABASES = {
